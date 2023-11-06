@@ -9,7 +9,7 @@ import {
   Text,
 } from '@chakra-ui/react';
 import Login from './components/EmailTemplate/Login';
-import VerificationCode from './components/EmailTemplate/verificationCode';
+import VerificationCode from './components/EmailTemplate/VerificationCode';
 
 function App() {
   return (
