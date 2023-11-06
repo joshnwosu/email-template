@@ -13,7 +13,7 @@ import VerificationCode from './components/EmailTemplate/VerificationCode';
 
 function App() {
   return (
-    <Box w='100%' p={'4'}>
+    <Box w='100%' h='100vh' p={'4'} bg={'#F1F6F9'}>
       <Text>Email Template:</Text>
 
       <Tabs position='relative' variant='unstyled'>

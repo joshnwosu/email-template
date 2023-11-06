@@ -1,50 +1,23 @@
-import {
-  Box,
-  Card,
-  CardBody,
-  CardHeader,
-  Heading,
-  Stack,
-  StackDivider,
-  Text,
-} from '@chakra-ui/react';
+import { Box, Button, Text } from '@chakra-ui/react';
 export default function Login() {
   return (
     <div>
-      <Card>
-        <CardHeader>
-          <Heading size='md'>Client Report</Heading>
-        </CardHeader>
+      <Box bg='#ffffff' p={6} w={500}>
+        <Text>New Login to Mybuildingfile</Text>
+        <Text>Hi Angela,</Text>
+        <Text>
+          We noticed you logged in from a new device. If this was you, there's
+          nothing for you to do right now.
+        </Text>
 
-        <CardBody>
-          <Stack divider={<StackDivider />} spacing='4'>
-            <Box>
-              <Heading size='xs' textTransform='uppercase'>
-                Summary
-              </Heading>
-              <Text pt='2' fontSize='sm'>
-                View a summary of all your clients over the last month.
-              </Text>
-            </Box>
-            <Box>
-              <Heading size='xs' textTransform='uppercase'>
-                Overview
-              </Heading>
-              <Text pt='2' fontSize='sm'>
-                Check out the overview of your clients.
-              </Text>
-            </Box>
-            <Box>
-              <Heading size='xs' textTransform='uppercase'>
-                Analysis
-              </Heading>
-              <Text pt='2' fontSize='sm'>
-                See a detailed analysis of all your business clients.
-              </Text>
-            </Box>
-          </Stack>
-        </CardBody>
-      </Card>
+        <Box>
+          <Text>Location:</Text>
+          <Text>Time:</Text>
+        </Box>
+
+        <Text>Not you?</Text>
+        <Button>Secure account</Button>
+      </Box>
     </div>
   );
 }
