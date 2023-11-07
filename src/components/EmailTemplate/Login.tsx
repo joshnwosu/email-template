@@ -1,10 +1,12 @@
 import { Box, Button, Flex, Image, Link, Stack, Text } from '@chakra-ui/react';
+import Logo from '../Shared/Logo/Logo';
+
 export default function Login() {
   return (
     <Box w={480}>
       <Box bg='#ffffff' p={6}>
         <Stack gap={4}>
-          <Text mb={4}>Mybuildingfile</Text>
+          <Logo />
           <Text fontSize={'xl'} fontWeight={'semibold'}>
             New Login to Mybuildingfile
           </Text>
