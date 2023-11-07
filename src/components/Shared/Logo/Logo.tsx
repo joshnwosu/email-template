@@ -5,7 +5,7 @@ export default function Logo() {
   return (
     <Image
       src={logo}
-      w={'150px'}
+      w={'140px'}
       height={'50px'}
       objectFit={'contain'}
       alt='mybuildingfile logo'
