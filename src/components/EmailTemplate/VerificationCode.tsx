@@ -2,7 +2,7 @@ import { Box, Button, Flex, Link, Stack, Text } from '@chakra-ui/react';
 import Logo from '../Shared/Logo/Logo';
 export default function VerificationCode() {
   return (
-    <Box w={460}>
+    <Box w={460} maxW={'100%'}>
       <Box bg='#ffffff' p={6}>
         <Stack gap={4}>
           <Logo />
