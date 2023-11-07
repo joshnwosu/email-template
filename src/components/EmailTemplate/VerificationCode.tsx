@@ -26,7 +26,7 @@ export default function VerificationCode() {
                 justifyContent={'center'}
                 alignItems={'center'}
               >
-                <Text fontSize={'3xl'} fontWeight={800}>
+                <Text fontSize={'3xl'} fontWeight={700}>
                   {item}
                 </Text>
               </Box>
