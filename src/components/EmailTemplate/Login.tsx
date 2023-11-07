@@ -3,7 +3,7 @@ import Logo from '../Shared/Logo/Logo';
 
 export default function Login() {
   return (
-    <Box w={480}>
+    <Box w={460}>
       <Box bg='#ffffff' p={6}>
         <Stack gap={4}>
           <Logo />

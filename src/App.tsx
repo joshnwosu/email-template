@@ -25,10 +25,10 @@ function App() {
           borderRadius='1px'
         />
         <TabPanels>
-          <TabPanel>
+          <TabPanel px={0}>
             <Login />
           </TabPanel>
-          <TabPanel>
+          <TabPanel px={0}>
             <VerificationCode />
           </TabPanel>
         </TabPanels>
